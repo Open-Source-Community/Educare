@@ -1,0 +1,33 @@
+.month {
+    color: #9741ff;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    letter-spacing: .5px;
+    margin-top: .4rem;
+    font-size: .8rem;
+}
+
+.assignment-container {
+    padding: 1.3rem;
+    width: 100%;
+    height: 6.7rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;    
+    justify-content: space-between;
+    /* width: 100%; */
+    color: #333;
+}
+
+.link h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

@@ -1,0 +1,11 @@
+.category {
+    letter-spacing: .02rem;
+    text-transform: uppercase;
+    font-family: Lato, sans-serif;
+    font-size: .8rem;
+    transition: opacity .2s ease-in-out;
+}
+
+.category:hover {
+    opacity: .6;
+}
