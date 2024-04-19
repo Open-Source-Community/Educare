@@ -6,7 +6,7 @@ const Card = ({ category, title, author, description, imageUrl, link }) => {
     <div className="hero-grid">
       <div className="w-dyn-list">
         <div role="list" className="w-dyn-items">
-          <div className="card-container">
+          <div className="hero-card-container">
             <div className="card hero">
               <div className="image-container">
                 <img src={imageUrl} alt={title} className="card-image" />

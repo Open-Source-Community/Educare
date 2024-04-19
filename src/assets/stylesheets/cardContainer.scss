@@ -1,8 +1,8 @@
-.vcard-container {
+.card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10px, 1fr)); // Adjust min and max width as needed
   gap: 44px; 
-
+  margin-bottom: 42px;
 
 .card {
   width: 370px; 
@@ -56,16 +56,32 @@
       }
     }
   }
-
-  .button-wrapper {
-    .button {
-      background-color: var(--blue-violet);
-      color: #fff;
-      padding: 10px 20px;
-      text-decoration: none;
-      transition: background-color 0.3s ease;
-    }
-  }
+}
 }
 
+.button{
+  float:right;
+  font-weight: 400;
+  text-align: left;
+  box-sizing: border-box;
+  line-height: inherit;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #333;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  transition: background-color .2s ease-in-out;
+  box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, .2);
+
+  &:hover{
+    background-color: rgb(133, 18, 255);
+  }
 }
