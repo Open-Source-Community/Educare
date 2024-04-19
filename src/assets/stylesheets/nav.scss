@@ -1,0 +1,51 @@
+.link-text{
+  color:black;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Noto Sans;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 325px;
+  min-height: 100vh;
+  padding-left: 2.2vw;
+  padding-top: 2.2vw;
+
+ul {
+  padding: 0;
+  list-style: none;
+
+  li {
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 4vh;
+    opacity: 60%;
+    color:black;
+
+      img {
+        padding-right: 10px;
+        width: 22px;
+        height: 22px;
+        margin-top: -5px;
+        vertical-align: middle;
+      }
+
+    &:hover {
+      opacity: 100%; 
+    }
+    &.active {
+      opacity: 100%;
+    }
+  
+}
+  }
+  .logo{
+    width: 110px;
+    margin-bottom: 5vh;
+  }
+
+}

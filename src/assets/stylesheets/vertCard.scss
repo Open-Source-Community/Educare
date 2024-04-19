@@ -1,0 +1,139 @@
+.lesson-card {
+  -webkit-text-size-adjust: 100%;
+  --white: white;
+  --grey: #909090;
+  --blue-violet: #9741ff;
+  --silver: #bbb;
+  --ghost-white: #faf9ff;
+  --medium-purple: #b478ff;
+  --dim-grey: #666;
+  --lime-green: #23d473;
+  color: #333;
+  font-family: Noto Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: var(--white);
+  flex-direction: column;
+  transition: box-shadow .2s ease-in-out;
+  display: flex;
+  background-attachment: scroll !important;
+  height: 100%;
+  margin-bottom: 0;
+  padding: 0;
+
+  .lesson-image {
+    -webkit-text-size-adjust: 100%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    cursor: pointer;
+    color: #333;
+    width: 538px;
+    box-sizing: border-box;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    background-attachment: scroll !important;
+  }
+
+  .card-data {
+    -webkit-text-size-adjust: 100%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: #333;
+    flex: 1;
+    padding-top: 10px;
+    text-decoration: none;
+    background-attachment: scroll !important;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .category {
+      -webkit-text-size-adjust: 100%;
+      font-family: Noto Sans, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5em;
+      box-sizing: border-box;
+      background-color: rgba(0, 0, 0, 0);
+      cursor: pointer;
+      max-width: 100%;
+      margin-top: 5px;
+      text-decoration: none;
+      transition: opacity .2s ease-in-out;
+      display: block;
+      background-attachment: scroll !important;
+    }
+
+    .card-title {
+      -webkit-text-size-adjust: 100%;
+      font-family: Noto Sans, sans-serif;
+      cursor: pointer;
+      box-sizing: border-box;
+      color: #333;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.4em;
+      text-decoration: none;
+      background-attachment: scroll !important;
+    }
+
+    p {
+      -webkit-text-size-adjust: 100%;
+      font-family: Noto Sans, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5em;
+      cursor: pointer;
+      color: #333;
+      box-sizing: border-box;
+      margin-top: 10px;
+      margin-bottom: 0;
+      background-attachment: scroll !important;    }
+  }
+
+  .author-info {
+    display: inline-block;
+    -webkit-text-size-adjust: 100%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    max-width: 100%;
+    color: var(--silver);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    background-attachment: scroll !important;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .author-name {
+      -webkit-text-size-adjust: 100%;
+      font-family: Noto Sans, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5em;
+      cursor: pointer;
+      color: var(--silver);
+      box-sizing: border-box;
+      margin-left: 3px;
+      background-attachment: scroll !important;
+    }
+  }
+}
