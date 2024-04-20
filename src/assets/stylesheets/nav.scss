@@ -1,0 +1,44 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  width: 325px;
+  min-height: 100vh;
+  padding-left: 2.2vw;
+  padding-top: 2.2vw;
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      font-weight: 800;
+      font-size: 16px;
+      margin-bottom: 4vh;
+      opacity: 0.6;
+      transition: opacity 0.3s ease;
+
+      img {
+        padding-right: 10px;
+        width: 22px;
+        height: 22px;
+        margin-top: -5px;
+        vertical-align: middle;
+      }
+
+      &:hover,
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
+  .logo {
+    width: 110px;
+    margin-bottom: 5vh;
+  }
+}
