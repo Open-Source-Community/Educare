@@ -1,12 +1,8 @@
-.link-text{
-  color:black;
-}
-
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 900;
   background-color: rgb(255, 255, 255);
   display: block;
@@ -15,16 +11,16 @@ nav{
   padding-left: 2.2vw;
   padding-top: 2.2vw;
 
-ul {
-  padding: 0;
-  list-style: none;
+  ul {
+    padding: 0;
+    list-style: none;
 
-  li {
-    font-weight: 800;
-    font-size: 16px;
-    margin-bottom: 4vh;
-    opacity: 60%;
-    color:black;
+    li {
+      font-weight: 800;
+      font-size: 16px;
+      margin-bottom: 4vh;
+      opacity: 0.6;
+      transition: opacity 0.3s ease;
 
       img {
         padding-right: 10px;
@@ -34,18 +30,15 @@ ul {
         vertical-align: middle;
       }
 
-    &:hover {
-      opacity: 100%; 
+      &:hover,
+      &.active {
+        opacity: 1;
+      }
     }
-    &.active {
-      opacity: 100%;
-    }
-  
-}
   }
-  .logo{
+
+  .logo {
     width: 110px;
     margin-bottom: 5vh;
   }
-
 }
